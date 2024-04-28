@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class HitStart : MonoBehaviour
 {
+    
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.name == "Start_Button")
@@ -23,7 +25,7 @@ public class HitStart : MonoBehaviour
         {
             SceneManager.LoadScene("Menu");
         }
-        else if (collision.gameObject.name == "Exit_Button")
+        else if(collision.gameObject.name == "Exit_Button")
         {
             Application.Quit();
         }
