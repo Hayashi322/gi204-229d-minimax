@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - item
+  - Spike
   layers:
   - Default
   - TransparentFX
@@ -38,6 +40,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1491390237
+    locked: 0
+  - name: Midground
+    uniqueID: 3309442409
+    locked: 0
+  - name: Foreground
+    uniqueID: 2488959021
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
